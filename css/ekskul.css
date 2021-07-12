@@ -1,0 +1,45 @@
+.banner2{
+    background-color: #001E86;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.iframe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.viframe{
+    border-radius: 20px;
+}
+.white{
+    color: #fff;
+}
+.navbar_white a{
+    color: #fff;
+}
+
+
+/* Wave */
+.wave{
+    background-image: url(/img/wave.png);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+}
+
+/* box */
+.box{
+    width: 100%;
+    height: max-content;
+    
+}
+
+
+/* Sejarah */
+.sejarah{
+    height: 1000px;
+}
