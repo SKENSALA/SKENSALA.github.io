@@ -11,6 +11,9 @@
   align-items: center;
   margin-top: 20px;
 }
+iframe{
+  box-shadow:6px 5px 3px rgb(6, 4, 12);
+}
 .viframe {
   border-radius: 20px;
 }
@@ -44,6 +47,7 @@
   border: 2px solid #001e86;
   border-radius: 20px;
   padding: 20px;
+  box-shadow:6px 5px 3px rgba(6, 4, 12, 0.432);
 }
 .sidebar_box {
   width: 30%;
@@ -55,6 +59,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow:6px 5px 3px rgba(6, 4, 12, 0.432);
 }
 
 /* Sejarah */
@@ -96,6 +101,7 @@ h3 {
   padding: 20px;
   text-align: center;
   margin: 40px 0;
+  box-shadow:6px 5px 3px rgba(6, 4, 12, 0.562);
 }
 .btn {
   border: 2px solid #001e86;
