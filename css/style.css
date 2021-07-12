@@ -23,7 +23,7 @@
   background-image: url(/img/banner.jpg);
   background-size: cover;
   background-position: center;
-  opacity: 0.8;
+  opacity: 0.75;
   overflow: hidden;
 }
 
@@ -44,7 +44,6 @@ nav {
   justify-content: space-around;
   padding: 20px 0;
   align-items: center;
-  color: #fff;
   padding-top: 30px;
   position: fixed;
   top: 0;
@@ -56,7 +55,7 @@ nav {
 
 nav.sticky {
   background-color: #8291ca;
-  padding: 10px;
+  padding: 10px 0;
 }
 nav .logo {
   font-family: "Roboto", sans-serif;
@@ -64,11 +63,11 @@ nav .logo {
   font-size: 20px;
   color: #fff;
   text-decoration: none;
-  margin-left: -140px;
+  margin-left: -150px;
 }
 .logo:hover {
   text-decoration: underline;
-  color: #7d89b4;
+  opacity: 0.8;
 }
 nav ul {
   display: flex;
@@ -78,14 +77,14 @@ nav ul {
   margin-right: -180px;
 }
 nav ul li a {
-  color: #001e86;
+  color: #fff;
   text-decoration: none;
   font-size: 0.8em;
   font-weight: 600;
 }
 
 nav ul li a:hover {
-  color: #263774;
+  opacity: 0.8;
   border-bottom: 3px solid #001e86;
   border-radius: 4px;
 }
@@ -145,23 +144,27 @@ nav ul li a:hover {
   font-weight: bold;
   font-family: "Roboto", sans-serif;
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .teks {
   font-size: 14px;
   font-weight: 400;
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .btn_biru {
   text-decoration: none;
   color: #fff;
-  padding: 8px 15px;
+  padding: 8px 20px;
   background-color: #0011ff;
   border-radius: 10px;
+  font-weight: bold;
 }
 .btn_biru:hover {
-  background-color: #8e95f3f5;
+  /* background-color: #8e95f3f5; */
+  border: 2px solid #001e86;
+  background-color: #fff;
+  color: #001e86;
 }
 
 /* Eskul */
@@ -192,9 +195,12 @@ nav ul li a:hover {
   border: 2px solid #001e86;
   border-radius: 20px;
   overflow: hidden;
-  /* text-decoration: none; */
+  text-decoration: none;
   background-color: #001e86;
-  /* filter: drop-shadow(6px 5px 4px rgba(0, 0, 0, 0.5)); */
+  box-shadow:6px 5px 3px rgba(66, 33, 143, 0.5);
+}
+.card:hover{
+  transform: translateY(3px);
 }
 .img_card {
   width: 220px;
@@ -390,12 +396,12 @@ footer a:hover {
     opacity: 0;
   }
   nav .logo {
-    color: #001e86;
+    color: #fff;
     margin: 0;
     font-size: 18px;
   }
   nav .logo:hover {
-    color: #fff;
+    color: #001e86;
   }
 
   nav ul.slide {
@@ -427,5 +433,8 @@ footer a:hover {
   .faq_menu .answer {
     width: 100%;
     margin-left: 0;
+  }
+  .copyright{
+    font-size: 12px;
   }
 }
