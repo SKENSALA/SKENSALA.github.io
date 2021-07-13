@@ -64,6 +64,7 @@ nav .logo {
   color: #fff;
   text-decoration: none;
   margin-left: -150px;
+  text-shadow: 2px 2px #001e86;
 }
 .logo:hover {
   text-decoration: underline;
@@ -81,6 +82,7 @@ nav ul li a {
   text-decoration: none;
   font-size: 0.8em;
   font-weight: 600;
+  text-shadow: 2px 2px #001e86;
 }
 
 nav ul li a:hover {
@@ -198,9 +200,9 @@ nav ul li a:hover {
   text-decoration: none;
   background-color: #001e86;
   transition: 0.5s ease;
-  box-shadow:6px 5px 3px rgba(66, 33, 143, 0.5);
+  box-shadow: 6px 5px 3px rgba(66, 33, 143, 0.5);
 }
-.card:hover{
+.card:hover {
   transform: translateY(5px);
 }
 .img_card {
@@ -367,7 +369,6 @@ footer a:hover {
   text-decoration: underline;
 }
 
-
 /* Back to top */
 #button {
   display: inline-block;
@@ -379,15 +380,14 @@ footer a:hover {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  transition: background-color .3s, 
-    opacity .5s, visibility .5s;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
-  box-shadow:6px 5px 3px rgba(66, 33, 143, 0.5);
+  box-shadow: 6px 5px 3px rgba(66, 33, 143, 0.5);
   border: 1px solid black;
   font-size: 40px;
-} 
+}
 
 #button:hover {
   cursor: pointer;
@@ -402,12 +402,12 @@ footer a:hover {
   visibility: visible;
 }
 
-.parent{
+.parent {
   display: flex;
   justify-content: space-between;
 }
 
-.gambar_faq{
+.gambar_faq {
   width: 40%;
 }
 
@@ -416,7 +416,7 @@ footer a:hover {
   transition: 1s;
   cursor: pointer;
 }
-.img_faq:hover{
+.img_faq:hover {
   margin-top: 10px;
 }
 /* Responsive Breakpiont */
@@ -452,9 +452,10 @@ footer a:hover {
     color: #fff;
     margin: 0;
     font-size: 18px;
+    text-shadow: 2px 2px #001e86;
   }
   nav .logo:hover {
-    color: #001e86;
+    opacity: 0.5;
   }
 
   nav ul.slide {
@@ -487,10 +488,13 @@ footer a:hover {
     width: 100%;
     margin-left: 0;
   }
-  .copyright{
+  .copyright {
     font-size: 12px;
   }
-  .gambar_faq{
+  .gambar_faq {
     display: none;
+  }
+  .heading{
+    text-shadow: 4px 6px #001e86;
   }
 }
