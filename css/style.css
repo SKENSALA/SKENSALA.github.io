@@ -197,10 +197,11 @@ nav ul li a:hover {
   overflow: hidden;
   text-decoration: none;
   background-color: #001e86;
+  transition: 0.5s ease;
   box-shadow:6px 5px 3px rgba(66, 33, 143, 0.5);
 }
 .card:hover{
-  transform: translateY(3px);
+  transform: translateY(5px);
 }
 .img_card {
   width: 220px;
@@ -401,7 +402,23 @@ footer a:hover {
   visibility: visible;
 }
 
+.parent{
+  display: flex;
+  justify-content: space-between;
+}
 
+.gambar_faq{
+  width: 40%;
+}
+
+.img_faq {
+  width: 500px;
+  transition: 1s;
+  cursor: pointer;
+}
+.img_faq:hover{
+  margin-top: 10px;
+}
 /* Responsive Breakpiont */
 
 /* ukuran tablet */
@@ -472,5 +489,8 @@ footer a:hover {
   }
   .copyright{
     font-size: 12px;
+  }
+  .gambar_faq{
+    display: none;
   }
 }
