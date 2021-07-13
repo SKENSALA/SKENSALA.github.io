@@ -80,10 +80,15 @@ iframe{
   height: 200px;
   background-position: center;
   background-size: cover;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
 }
 .poster {
   width: 250px;
   max-height: 400px;
+  margin-bottom: 20px;
+  border-radius: 20px;
   margin-bottom: 20px;
 }
 h3 {
@@ -128,8 +133,12 @@ h3 {
 /* responsif */
 
 @media screen and (max-width: 576px) {
+  .banner2{
+    padding-top: 10px;
+  }
   iframe {
     margin: 30px;
+    margin-top: -10px;
   }
   .box_parent {
     flex-direction: column;
@@ -137,8 +146,13 @@ h3 {
   .box{
       width: 100%;
       margin-bottom: 20px;
-  }
-  .sidebar_box{
+      padding: 10px;
+    }
+    .sidebar_box{
+    padding: 10px;
       width: 100%;
+  }
+  .sejarah{
+    margin: 0 3%;
   }
 }

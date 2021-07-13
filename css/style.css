@@ -447,6 +447,8 @@ footer a:hover {
     transform: translateY(-100%);
     transition: all 1s;
     opacity: 0;
+    border-radius: 10px;
+    box-shadow: 2px 3px #001e86;
   }
   nav .logo {
     color: #fff;
@@ -461,6 +463,9 @@ footer a:hover {
   nav ul.slide {
     opacity: 1;
     transform: translateX(0);
+  }
+  nav ul li:first-child{
+    margin-top: 40px;
   }
   .banner {
     margin-top: 140px;
