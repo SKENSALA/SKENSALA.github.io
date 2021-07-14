@@ -346,7 +346,6 @@ nav ul li a:hover {
   cursor: pointer;
   padding: 10px;
   transition: color 0.5s ease;
-  font-size: 16px;
   position: relative;
 }
 
@@ -419,6 +418,20 @@ footer a:hover {
 .img_faq:hover {
   margin-top: 10px;
 }
+.fs-0-75{
+  font-size: 0.75em;
+}
+.fs-1{
+  font-size: 1em;
+}
+.fs-1-5{
+  font-size: 1.5em;
+}
+.fs-2{
+  font-size: 2em;
+}
+
+
 /* Responsive Breakpiont */
 
 /* ukuran tablet */
