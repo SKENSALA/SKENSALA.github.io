@@ -431,6 +431,13 @@ footer a:hover {
   font-size: 2em;
 }
 
+.cp{
+  width: 50%;
+  border-radius: 20px;
+  color: #fff;
+  padding: 5px;
+  border: 2px solid #fff;
+}
 
 /* Responsive Breakpiont */
 
@@ -514,5 +521,12 @@ footer a:hover {
   }
   .heading{
     text-shadow: 4px 6px #001e86;
+  }
+  .question{
+    font-size: 0.75em;
+  }
+  .cp{
+    width: 100%;
+    font-size: 12px;
   }
 }
