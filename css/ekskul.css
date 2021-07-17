@@ -130,6 +130,22 @@ h3 {
   height: 220px;
 }
 
+/* CLOSE */
+.close_page{
+  width: max-content;
+  margin: auto;
+  margin-top: 20%;
+  padding: 10px;
+  color: #fff;
+  border: 2px dashed white;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.mt{
+  margin-left: 47%;
+}
+
+
 /* responsif */
 
 @media screen and (max-width: 576px) {
@@ -154,5 +170,13 @@ h3 {
   }
   .sejarah{
     margin: 0 3%;
+  }
+  .close_page{
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 50%;
+  }
+  .mt{
+    margin-left: 34%;
   }
 }

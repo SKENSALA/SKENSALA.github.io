@@ -297,7 +297,6 @@ nav ul li a:hover {
 }
 .faq_menu .answer {
   width: 530px;
-  height: 155px;
   background-color: #fff;
   border-radius: 10px;
   padding: 10px;
@@ -349,6 +348,7 @@ nav ul li a:hover {
   transition: color 0.5s ease;
   position: relative;
 }
+
 
 /* footer */
 footer {
