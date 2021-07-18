@@ -340,11 +340,11 @@ nav ul li a:hover {
 }
 .faq_menu .question {
   width: 600px;
-  height: 46px;
+  padding: 10px 40px 10px 10px;
   background-color: #fff;
   border-radius: 10px;
   cursor: pointer;
-  padding: 10px;
+  /* padding: 10px; */
   transition: color 0.5s ease;
   position: relative;
 }
