@@ -56,6 +56,7 @@ nav {
 nav.sticky {
   background-color: #8291ca;
   padding: 10px 0;
+  z-index: 999;
 }
 nav .logo {
   font-family: "Roboto", sans-serif;
@@ -347,6 +348,7 @@ nav ul li a:hover {
   /* padding: 10px; */
   transition: color 0.5s ease;
   position: relative;
+  z-index: 1;
 }
 
 
@@ -529,5 +531,9 @@ footer a:hover {
   .cp{
     width: 100%;
     font-size: 12px;
+  }
+  .cp_home{
+    width: 100%;
+    font-size: 3vw;
   }
 }
