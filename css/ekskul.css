@@ -140,6 +140,13 @@ h3 {
   border: 2px dashed white;
   border-radius: 20px;
   margin-bottom: 30px;
+  cursor:zoom-in;
+  transition: 0.5s;
+}
+.close_page:hover{
+  border: 2px solid #fff;
+  transform: scale(1.1);
+  box-shadow: 1px 1px 10px #fff;
 }
 .mt{
   margin-left: 47%;
