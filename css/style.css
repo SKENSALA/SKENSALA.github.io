@@ -442,6 +442,14 @@ footer a:hover {
   padding: 5px;
   border: 2px solid #fff;
 }
+.cp_home a{
+  color: #fff;
+  text-decoration: none;
+}
+.cp_home a:hover{
+  opacity: 0.75;
+  text-decoration: underline;
+}
 
 /* Responsive Breakpiont */
 
